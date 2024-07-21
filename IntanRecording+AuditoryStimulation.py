@@ -20,7 +20,7 @@ import numpy as np
 import sounddevice as sd
 import threading
 
-def play_tone(frequency=2000, duration=1):
+def play_tone(frequency=2000, duration=2):
     # Play a tone at the given frequency and duration.
     
     fs = 44100  # Sampling rate
